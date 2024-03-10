@@ -1,0 +1,22 @@
+.msgBox{
+    background-color: gainsboro;
+    padding: 1vmax;
+    width:50%;
+    margin: 1.5vmax;
+    border-radius: 0.5vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clear: both;
+    display: inline-block;
+
+}
+.right{
+    float: right;
+    background-color: crimson;
+    color: white;
+}
+
+.left{
+    float: left;
+    background-color:rgb(39, 232, 39);
+    color: white;
+}

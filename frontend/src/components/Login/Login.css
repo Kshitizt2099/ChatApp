@@ -1,0 +1,59 @@
+.LoginContainer{
+    background-color: black;
+        height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginBox{
+    
+    
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginBox>img{
+    height: 10vmax;
+    width: 10vmax;
+}
+.LoginBox>h1{
+    color: white;
+    font-size: 2.5vmax;
+    font-family: "Roboto";
+    border-bottom: 0.2vmax solid white;
+    padding: 1vmax;
+   
+}
+
+#inputid{
+    width:25vmax;
+    padding:1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: "Roboto";
+    margin: 2vmax;
+    box-sizing: border-box;
+    
+   
+}
+
+.Loginbtn{
+    color: white;
+    background-color: crimson;
+    font-family: "Roboto";
+    width:25vmax;
+    padding:1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: "Roboto";
+    margin: 2vmax;
+    transition: all 0.3;
+    cursor: pointer;
+}
+.Loginbtn:hover{
+    background-color:rgb(184, 60, 85);
+}
